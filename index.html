@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="demoApp">
+
+<head>
+  <title>Inspiring Quotes</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body class = "container">
+    <div class = "quoteblock">
+ 
+<div class="quote-box">
+  <div class="quote-text">
+    <i class="fa fa-quote-left"> </i><span id="text"></span>
+  </div>
+  <div class="quote-author">
+    - <span id="author"></span>
+  </div>
+  <div class="buttons">
+    <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+      <i class="fa fa-twitter"></i>
+    </a>
+     <a class="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank">
+      <i class="fa fa-tumblr"></i>
+    </a>
+    <button class="button" id="new-quote">New quote</button>
+  </div>
+</div>
+<div class="footer"> by <a href="http://codepen.io/hezag/">hezag</a></div>
+
+</body>
+</html>
